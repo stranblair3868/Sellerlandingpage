@@ -1,115 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stran Blair Realty | Free Home Valuation</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #f7f9fc;
-      color: #333;
-    }
-    header {
-      background: #1e3a8a;
-      color: white;
-      padding: 3rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    header p {
-      font-size: 1.25rem;
-      margin-top: 0;
-    }
-    .container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-    }
-    .intro {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .intro img {
-      max-width: 200px;
-      border-radius: 12px;
-      margin-bottom: 1rem;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-    form input, form textarea {
-      padding: 0.75rem;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-    form input[type="submit"] {
-      background: #1e3a8a;
-      color: white;
-      border: none;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    form input[type="submit"]:hover {
-      background: #3749ab;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-    @media (min-width: 768px) {
-      .intro {
-        flex-direction: row;
-        text-align: left;
-      }
-      .intro img {
-        margin-right: 2rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Sell Your Home Quickly for Top Dollar</h1>
-    <p>Get a free market analysis and expert guidance from a local pro</p>
-  </header>
-  <main class="container">
-    <div class="intro">
-      <!-- Replace the src with the actual uploaded image path -->
-      <img src="81E354E8-69C3-4EC4-AB10-72FF48305CE2.png" alt="Stran Blair">
-      <div>
-        <h2>Meet Stran Blair</h2>
-        <p>As a local expert, I help homeowners in Abilene sell their property fast — and for top dollar. Let's get started with a no-obligation home valuation today.</p>
-      </div>
-    </div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Stran Blair Realty | Free Home Valuation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="text" name="phone" placeholder="Your Phone Number">
-      <input type="text" name="address" placeholder="Property Address">
-      <textarea name="message" rows="4" placeholder="Any notes or questions?"></textarea>
-      <input type="submit" value="Get Your Free Home Report Now">
-    </form>
-  </main>
-  <footer>
-    <p>&copy; 2025 Stran Blair Realty. <a href="https://www.facebook.com/stranblair" target="_blank">Facebook</a> | Brokered by Real</p>
-  </footer>
-</body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Intro -->
+			<section class="intro">
+				<header>
+					<h1>Sell Your Home Quickly for Top Dollar</h1>
+					<p>Get a free market analysis and expert guidance from a local pro</p>
+				</header>
+				<div class="content">
+					<span class="image fill" data-position="center">
+						<img src="images/81E354E8-69C3-4EC4-AB10-72FF48305CE2.png" alt="Stran Blair" />
+					</span>
+				</div>
+			</section>
+
+			<!-- One -->
+			<section id="one">
+				<header class="major">
+					<h2>Meet Stran Blair</h2>
+				</header>
+				<p>As a local expert, I help homeowners in Abilene sell their property fast — and for top dollar. Let's get started with a no-obligation home valuation today.</p>
+			</section>
+
+			<!-- Two -->
+			<section id="two">
+				<h2>Get Your Free Home Report</h2>
+				<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+					<div class="row gtr-uniform">
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="name" placeholder="Your Name" required />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="email" name="email" placeholder="Your Email" required />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="phone" placeholder="Your Phone Number" />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="address" placeholder="Property Address" />
+						</div>
+						<div class="col-12">
+							<textarea name="message" placeholder="Any notes or questions?" rows="4"></textarea>
+						</div>
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="Get Your Free Home Report Now" class="primary" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p>&copy; 2025 Stran Blair Realty. <a href="https://www.facebook.com/stranblair" target="_blank">Facebook</a> | Brokered by Real</p>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
